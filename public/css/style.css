@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --text-color: #1C1A19;
+  --carousel-title-color: #FCF8F0;
+  --main-bg-color: #FCF8F0;
+
+  --text-hover-color: #fccbb8;
+  --bg-hover-color: #A0CFC6;
+
+  --boder-color: #A0CFC6;
+
+  --font-baskervville: 'Baskervville', serif;
+  --font-roboto: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.titles {
+  color: var(--text-color);
+  font-family: var(--font-baskervville);
+  font-weight: bold;
+}
+
+.main-text {
+  font-family: var(--font-roboto);
+}

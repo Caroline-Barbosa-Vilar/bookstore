@@ -1,0 +1,9 @@
+.carousel-img {
+  height: 30rem;
+  object-fit: cover;
+  object-position: 0 20%;
+}
+.carousel-caption-style {
+  color: var(--carousel-title-color);
+  font-family: var(--font-baskervville);
+}

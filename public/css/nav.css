@@ -1,0 +1,32 @@
+.logo-style {
+  font-family: 'Baskervville', serif;
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+.bg-nav {
+  background-color: var(--main-bg-color) ;
+}
+.nav-text-style {
+  color: var(--text-color);
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: var(--text-hover-color);
+}
+.icon-style {
+  color: var(--text-color);
+}
+
+/* .menu-size {
+  width: 30rem;
+} */
+/* .btn-nav-style {
+  color: var(--text-color);
+  border-color: var(--boder-color);
+  font-weight: bold;
+} 
+.btn-nav-style:hover {
+  background-color: var(--bg-hover-color);
+  font-weight: bold;
+}*/

@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: var(--font-roboto);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.glider {
+  border-radius: 20px;
+  height: 20rem; /*altura das bolinha*/
+}
+.glider-track {
+  height: 18rem;
+}
+.glider div img {
+  max-width: 60%;
+}
+
+.glider-slide {
+  padding: 1rem;
+  border: 1px solid var(--boder-color);
+  border-radius: 10px;
+  margin: 0 1rem;
+  background-color: var(--main-bg-color)
+}
+
+.title-test {
+  margin: .5rem 0;
+}
+
+.glider-carousel-btn {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.glider-carousel-btn:hover {
+  color: var(--text-hover-color);
+  background-color: var(--bg-hover-color);
+  border-radius: 20px;
+}

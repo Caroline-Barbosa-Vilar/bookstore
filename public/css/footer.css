@@ -1,0 +1,8 @@
+.footer-text-style {
+  color: #1C1A19;
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+}
+.footer-text-links:hover {
+  color: var(--text-hover-color);
+}
