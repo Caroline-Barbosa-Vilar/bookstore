@@ -3,11 +3,11 @@
   height: 100%;
 }
 .img-1 {
-  background: url(../img/bookshelf1.jpg) center no-repeat;
+  background: url(../img/about/bookshelf1.jpg) center no-repeat;
   background-size: cover;
 }
 .img-2 {
-  background: url(../img/bookshelf2.jpg) center no-repeat;
+  background: url(../img/about/bookshelf2.jpg) center no-repeat;
   background-size: cover;
 }
 .map {
