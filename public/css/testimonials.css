@@ -1,0 +1,23 @@
+.carousel-style {
+  height: 20rem;
+  background-color: var(--main-bg-color);
+}
+.carousel-container {
+  background-color: var(--secondary-bg-color);
+}
+.carousel-mg {
+  padding-top: 1rem;
+}
+
+.carousel-style p {
+  color: var(--text-color);
+  font-family: var(--font-roboto);
+  padding: 0 2rem;
+}
+.client-review-stars {
+  color: #ffd900;
+  margin-bottom: .3rem;
+}
+.carousel-btn-style {
+  margin-bottom: 1.5rem;
+}
