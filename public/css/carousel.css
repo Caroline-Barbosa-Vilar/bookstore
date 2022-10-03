@@ -4,6 +4,6 @@
   object-position: 0 20%;
 }
 .carousel-caption-style {
-  color: var(--carousel-title-color);
+  color: var(--text-color);
   font-family: var(--font-baskervville);
 }
