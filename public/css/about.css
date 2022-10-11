@@ -11,7 +11,5 @@
   background-size: cover;
 }
 .map {
-  background-color: var(--bg-hover-color);
   width: 50rem;
-  height: 20rem;
 }
