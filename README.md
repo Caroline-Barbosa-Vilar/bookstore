@@ -38,7 +38,7 @@ _Para a versão em Português, clique [aqui](#portuguese)._
 
 <!--## What I learned
 
-- ;
+- ; -->
 
 
 ## Access the Project
