@@ -45,7 +45,7 @@ _Para a versão em Português, clique [aqui](#portuguese)._
 
 You can [access the project here](https://bookstore-gray.vercel.app/) 
 
-Mobile -->
+<!--Mobile 
 
 <img src="./src/alura-plus-mobile-screen.gif" alt="Alura plus mobile screen gif">
 
@@ -55,7 +55,7 @@ Tablet
 
 Desktop 
 
-<img src="./src/alura-plus-desktop-screen.gif" alt="Alura plus desktop screen gif">
+<img src="./src/alura-plus-desktop-screen.gif" alt="Alura plus desktop screen gif"> -->
 
 
 <div id="portuguese">
@@ -100,14 +100,14 @@ Esse projeto será o primeiro projeto de meu portfólio. Desenvolvido usando Boo
 <br>
 <!-- ## O que aprendi
 
-- 
+- ;-->
 
 <br>
 ## Acesse o projeto
 
 Você pode [acessar o projeto aqui](https://bookstore-gray.vercel.app/) 
 
-Mobile -->
+<!--Mobile 
 
 <img src="./src/alura-plus-mobile-screen.gif" alt="mobile screen gif">
 
@@ -117,7 +117,7 @@ Tablet
 
 Desktop 
 
-<img src="./src/alura-plus-desktop-screen.gif" alt="desktop screen gif">
+<img src="./src/alura-plus-desktop-screen.gif" alt="desktop screen gif"> -->
 
 <br>
 <hr>
