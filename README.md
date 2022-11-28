@@ -100,14 +100,15 @@ Esse projeto será o primeiro projeto de meu portfólio. Desenvolvido usando Boo
 <br>
 <!-- ## O que aprendi
 
-- ;-->
+- ;
+--> 
 
 <br>
 ## Acesse o projeto
 
 Você pode [acessar o projeto aqui](https://bookstore-gray.vercel.app/) 
 
-<!--Mobile 
+<!-- Mobile 
 
 <img src="./src/alura-plus-mobile-screen.gif" alt="mobile screen gif">
 
