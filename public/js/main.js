@@ -1,17 +1,21 @@
-$(document).ready(function() {
-  var books;
-  $.ajax({
-    url:"books.json",
-  }).done(function(data){
-    books = data.books;
-    let div = $('#content');
+// $(document).ready(function() {
+//   var books;
+//   $.ajax({
+//     url:"books.json",
+//   }).done(function(data){
+//     books = data.books;
+//     let div = $('#content');
 
-    for(let i = 0;i <= books.length; i++){
-      $(div).append(`
-        <div class="card">
-          <img src="${books[i].img}">
-        </div>  
-      `)
-    }
-  });
-})
+//     for(let i = 0;i <= books.length; i++){
+//       $(div).append(`
+//         <div class="card">
+//           <img src="${books[i].img}">
+//         </div>  
+//       `)
+//     }
+//   });
+//   console.log(books)
+// })
+let books = [] 
+const endPointAPI = 'https://api.nytimes.com/svc/books/v3/reviews.json'
+console.log(endPointAPI)
