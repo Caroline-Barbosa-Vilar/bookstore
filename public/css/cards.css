@@ -5,6 +5,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .glider {
@@ -34,10 +35,14 @@
   text-decoration: none;
   color: var(--text-color);
   font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--text-color);
+  font-size: 0.9rem;
 }
 
 .glider-carousel-btn:hover {
-  color: var(--text-hover-color);
-  background-color: var(--bg-hover-color);
-  border-radius: 20px;
+  color: var(--btn-hover-color);
+  border: 1px solid var(--boder-color);
+  font-size: 1rem;
 }
