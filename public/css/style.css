@@ -8,6 +8,7 @@
 
   --text-hover-color: #fccbb8;
   --btn-hover-color: #4a6d66;
+  --title-color: #3d5e57;
 
   --boder-color: #A0CFC6;
 
@@ -27,4 +28,10 @@ body {
 
 .main-text {
   font-family: var(--font-roboto);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }

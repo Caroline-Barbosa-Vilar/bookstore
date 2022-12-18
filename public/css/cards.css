@@ -1,51 +1,33 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: var(--font-roboto);
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.glider {
-  border-radius: 20px;
-  height: 20rem; 
-}
-.glider-track {
-  height: 18rem;
-}
-.glider div img {
-  max-width: 60%;
-}
-.glider-image-sz {
-  height: 4.87rem;
-  width: 4.87rem;
-}
-.glider-slide {
+.card-item {
+  width: 18rem;
+  display: flex;
   padding: 1rem;
   border: 1px solid var(--boder-color);
   border-radius: 10px;
   margin: 0 1rem;
-  background-color: var(--main-bg-color)
+  background-color: var(--main-bg-color);
+  flex-direction: column;
 }
-
-.title-test {
-  margin: .5rem 0;
+.card-item-img {
+  height: 6rem;
+  width: 4.87rem;
 }
-
-.glider-carousel-btn {
-  text-decoration: none;
-  color: var(--text-color);
-  font-weight: bold;
-  padding: 0.2rem 0.5rem;
-  border-radius: 8px;
-  border: 1px solid var(--text-color);
-  font-size: 0.9rem;
+.card-item-header {
+  display: flex;
+  padding-bottom: 1rem;
 }
-
-.glider-carousel-btn:hover {
-  color: var(--btn-hover-color);
-  border: 1px solid var(--boder-color);
-  font-size: 1rem;
+.card-item-text {
+  padding-left: 0.6rem;
+}
+.card-item-title {
+  color: var(--title-color);
+  font-size: 1.2rem;
+}
+#more {
+  padding-bottom: 1rem;
 }
