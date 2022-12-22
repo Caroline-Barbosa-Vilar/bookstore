@@ -1,8 +1,7 @@
 let books = [] 
 const endPointAPI = 'https://caroline-barbosa-vilar.github.io/bookstore-json/data/books.json'
 getApiBooks()
-const bookInsertElement = document.querySelectorAll('.cards')
-console.log(bookInsertElement)
+
 
 async function getApiBooks() {
   const res = await fetch(endPointAPI)
@@ -12,6 +11,8 @@ async function getApiBooks() {
 
 function insertItemsOnScreen(bookItems){
   bookItems.forEach(book => {
+    let bookInsertElement = document.getElementById(book.category)
+    
     bookInsertElement.innerHTML += `
       <div class="mb-5 card-item">
         <div class="card-item-header">
