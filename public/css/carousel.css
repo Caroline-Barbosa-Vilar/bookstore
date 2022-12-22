@@ -6,8 +6,8 @@
 .carousel-caption-style {
   color: var(--text-color);
   font-family: var(--font-baskervville);
-  width: 440px;
   font-size: 2.2rem;
-  text-align:left
+  text-align:left;
+  width: 440px;
 }
 
