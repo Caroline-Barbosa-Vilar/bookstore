@@ -22,8 +22,11 @@ function insertItemsOnScreen(bookItems){
             <p>${book.author}</p>
           </div>
         </div>  
-        <span id="more">${book.synopsis}</span>
-        <p>$ ${book.price.toFixed(2)}</p>
+        <p>${book.synopsis}</p>
+        <div class="d-flex justify-content-center">
+          <p class="">$ ${book.price.toFixed(2)}</p>
+          <a href="#" target="_blank" class="btn">Buy</a>
+        </div>
       </div>
     `
   });
