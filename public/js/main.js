@@ -5,7 +5,7 @@ getApiBooks()
 async function getApiBooks() {
   const res = await fetch(endPointAPI)
   books = await res.json()
-  console.table(books)
+  // console.table(books)
   insertItemsOnScreen(books)
 }
 
